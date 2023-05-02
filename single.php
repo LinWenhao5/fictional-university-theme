@@ -20,7 +20,7 @@
             <p><a class="metabox__blog-home-link" href="<?php echo site_url('/blog') ?>">
             <i class="fa fa-home" aria-hidden="true"></i> Back to Blog</a> 
             <span class="metabox__main">
-                posted by <?php the_author() ?> 
+                posted by <?php the_author_posts_link() ?> 
                 on <?php the_time('F j, Y')?> 
                 in <?php echo get_the_category_list(', ')?>
             </span></p>
